@@ -1,0 +1,24 @@
+*#start#* home/dir1/file2/
+bu yazi bariseren gezici tarafidan itina ile yazilmistir.
+okuyan kisilere saglik, mutluluk, basari diliyorum.
+*#end#*
+*#start#* home/dir1/copiedFile/
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In rutrum mauris vitae odio. In elit nisl, tristique id, interdum sed, aliquam et, purus. Nunc ultricies, diam in accumsan commodo, sem ipsum dapibus dolor, nec suscipit erat pede vel arcu. Integer vulputate, libero vitae ultrices rhoncus, nulla enim convallis eros, eget auctor nisl massa at orci. Suspendisse ac nulla. Ut lacus. Suspendisse a elit. Sed elementum consequat wisi. Suspendisse potenti.
+    In hac habitasse platea dictumst. Integer quis massa vel pede posuere blandit. Nunc tellus enim, cursus sed, accumsan eget, facilisis eu, pede. Vestibulum feugiat mi non augue. Suspendisse potenti.
+    Cras non felis semper lorem laoreet dapibus. Sed interdum ante vitae tellus. In id ante. Morbi fringilla. Phasellus convallis leo eu turpis. Donec non ipsum vitae turpis malesuada sagittis.
+    Phasellus bibendum. Praesent ullamcorper. Ut leo tellus, elementum vitae, mattis nec, volutpat ut, felis. Nulla facilisi. Ut purus. Nullam placerat sem eu sem.
+    Donec fermentum bibendum mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam augue felis, imperdiet ut, porta sit amet, posuere sit amet, purus. Nunc egestas, quam quis suscipit rutrum, diam neque ultricies quam, eget gravida wisi elit ut magna. Aenean a est. Mauris in nisl eu sem aliquet gravida. Fusce tempus augue eget dui.
+    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas at est vel sem lacinia sodales. Nulla eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur leo. Duis id diam a sem posuere ornare. Nunc eros. Cras fringilla vulputate mauris. Ut eget purus eu augue cursus lobortis.
+    Vestibulum mauris. Sed posuere eros et nibh. Aliquam tincidunt commodo leo. Cras facilisis elementum nunc. Praesent pede nunc, aliquet nec, bibendum a, ornare vel, eros. Morbi aliquam, nisl quis porta dignissim, magna libero volutpat erat, ut vulputate leo magna semper purus. Maecenas nec nibh in dolor sollicitudin vehicula.
+    Aliquam feugiat laoreet justo. Cras pellentesque ligula a wisi. Sed tempus aliquet metus. Aenean condimentum vestibulum erat. Aliquam mi neque, nonummy semper, laoreet et, aliquam ac, lectus.
+    Phasellus tortor metus, gravida a, adipiscing vel, pellentesque at, lorem. Nam egestas erat nec orci. Nullam bibendum, eros vel gravida iaculis, velit neque porta lacus, quis dapibus erat enim in lorem. Integer purus. Sed tristique rutrum diam. Ut imperdiet arcu sed tortor. Vestibulum lobortis.
+    Fusce ac diam eget quam suscipit sagittis. Suspendisse porttitor. Etiam sit amet ipsum sed diam congue elementum. Sed tincidunt placerat quam. In sit amet turpis. Nulla vitae sapien id dui sollicitudin pharetra. Suspendisse quis mauris id pede interdum placerat. Nam viverra cursus augue. Vivamus mollis, diam eget cursus ullamcorper, neque orci facilisis purus, sit amet pretium urna pede semper mi. Donec viverra tempus purus. Donec vel arcu. Sed sit amet tellus. Etiam dolor ligula, viverra a, varius sed, ultrices a, dui. Etiam eget elit id lectus ornare ultrices. Maecenas tristique aliquet risus. Phasellus feugiat feugiat libero. Sed purus.
+    Donec est tortor, cursus sit amet, fringilla vitae, lacinia eget, diam. Sed eros. Fusce elit. Ut sit amet elit. Vestibulum pellentesque. Nulla egestas.
+    Sed auctor magna sed massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec tortor. Vestibulum elit. Pellentesque sodales venenatis magna. Aenean consectetuer pede eu risus. Praesent volutpat, dui a malesuada vehicula, elit nibh euismod pede, quis laoreet pede quam sit amet arcu. Pellentesque varius mollis enim. Cras eu massa vitae quam condimentum tempus. Donec ornare nisl vel odio. Aliquam erat volutpat. Ut tempus lorem id orci. Praesent suscipit euismod erat. Donec ut leo. Integer luctus, mi nec imperdiet aliquet, lorem augue condimentum purus, sed adipiscing ipsum erat sit amet urna.
+*#end#*
+*#start#* home/file1/
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+*#end#*

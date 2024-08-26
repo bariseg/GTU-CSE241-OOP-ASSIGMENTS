@@ -1,0 +1,5 @@
+ManualDoubleSet : empty set
+ManualDoubleSet : { (123.4) } size = 1
+ManualDoubleSet : { (123.4) (999.22) } size = 2
+ManualDoubleSet : { (123.4) } size = 1
+ManualDoubleSet : empty set

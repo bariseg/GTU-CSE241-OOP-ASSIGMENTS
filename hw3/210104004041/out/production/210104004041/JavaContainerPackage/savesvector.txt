@@ -1,0 +1,7 @@
+ManualStringVector : { (baris eren) (mustafa kemal) } size = 2
+ManualStringVector : { (baris eren) (mustafa kemal) (Oguz Atay) } size = 3
+ManualStringVector : { (mustafa kemal) (Oguz Atay) } size = 2
+OtoCarVector
+{ (Mercedes C180,2012) } size = 1
+{ (Mercedes C180,2012) (Fiat Egea,2019) } size = 2
+{ (Mercedes C180,2012) (Fiat Egea,2019) (Anadol,1976) (Anadol,1976) } size = 4

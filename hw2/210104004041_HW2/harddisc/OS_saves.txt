@@ -1,0 +1,4 @@
+CurrentDirectory home/
+DiscStorageUsed 0
+DiscStorageRemain 1048576
+DiscStorage 1048576

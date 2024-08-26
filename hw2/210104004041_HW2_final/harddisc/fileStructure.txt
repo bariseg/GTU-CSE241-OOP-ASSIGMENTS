@@ -1,0 +1,11 @@
+* home home/ Jan 07 19:45
+* dir1 home/dir1/ Jan 07 19:46
+*F file2 home/dir1/file2/ Feb 07 19:47
+* dir2 home/dir1/dir2/ Jan 09 14:06
+*S copiedFileLinked home/dir1/dir2/copiedFileLinked/ home/dir1/copiedFile/ Jan 09 14:14
+** dir2
+*F copiedFile home/dir1/copiedFile/ Jan 09 14:13
+** dir1
+*F file1 home/file1/ Jan 09 02:01
+*S file1L home/file1L/ home/file1/ Jan 09 02:48
+** home

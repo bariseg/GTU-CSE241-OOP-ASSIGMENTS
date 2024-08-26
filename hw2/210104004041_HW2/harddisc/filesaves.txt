@@ -1,0 +1,12 @@
+* home home/ 
+* dir1 home/dir1
+** dir1
+* dir2 home/dir2/
+* dir3 home/dir2/dir3/
+* dir4 home/dir2/dir3/dir4/
+** dir4
+* dir5 home/dir2/dir3/dir5/
+** dir5
+** dir3
+** dir2
+** home

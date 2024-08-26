@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title><meta name="robots" content="noindex,nofollow" /><meta name="googlebot" content="noindex" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" /><script type="text/javascript" src="../utils/popup_win_test.js?gkm=FCE0958D0C13BD4B0B2823126CDBF1E1"></script><link href="../proliz_boots4/bootstrap/css/bootstrap.min.css" rel="stylesheet" /><script type="text/JavaScript"> function checklength(i) { if (i < 10) { i = "0" + i; } return i; } var minutes, seconds, count, counter, timer; count = 60 * 5; counter = setInterval(timer, 1000); function timer() { if (document.getElementById("lblTimer") == null) { return; } count = count - 1; minutes = checklength(Math.floor(count / 60)); seconds = checklength(count - minutes * 60); if (count < 0) { clearInterval(counter); return; } document.getElementById("lblTimer").innerHTML = minutes + ':' + seconds; if (count === 0) { tblLogin.style.display = 'none'; btnRefresh.style.display = 'inline'; document.getElementById("lblTimerH").innerHTML = 'Oturum açma süresi zaman aşımına uğradı.<br/>Tekrar oturumu başlatmak için<br/>Lütfen Sayfayı Yenile butonuna basınız.<br/><br/>'; document.getElementById("lblTimer").innerHTML = ''; } }</script>
+<style>footer {background: #121e2d;width: 100%;height: 30px;bottom: 0px;padding-top: 0px;position: fixed;z-index: 10;text-align: center;}</style>    
+<link href="../App_Themes/oibs16/oibs16.css" type="text/css" rel="stylesheet" /><link rel="stylesheet" type="text/css" href="/oibs/proliz_boots4/fontawesome/css/all.min.css"></link><link rel="stylesheet" type="text/css" href="/oibs/proliz_boots4/select2/css/select2.min.css"></link></head>
+<body>
+<form method="post" action="./login.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/oibs/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZBLPcBoAOtY9pdpxwZkxhB0R9Kd8auV1GsRoODb4l9AQFsOyOw2&amp;t=638344191423008439" type="text/javascript"></script>
+
+
+<script src="/oibs/proliz_boots4/jquery/jquery-3.7.0.min.js" type="text/javascript"></script>
+<script src="/oibs/proliz_boots4/select2/js/select2.min.js" type="text/javascript"></script>
+<script src="/oibs/utils/ModalPopupWindow_v18_min.js" type="text/javascript"></script><script type="text/javascript">var baseUrl = '/oibs/';var modalWin = new CreateModalPopUpObject();</script>
+<script src="/oibs/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvmAF57hagQzY2h6x8DtIpeowq8rI8CGp6-MVhcfeqhRH0sZql4w8H6Kw5iLeOx8pOoiiowgXWmXXlL25QdU9VnRpvum43RiPVqe08o6lrvBbOHLdznsUk8Eci85-pK0LAsvbRF41&amp;t=ffffffffadad19fc" type="text/javascript"></script>
+<script src="/oibs/ScriptResource.axd?d=dwY9oWetJoJoVpgL6Zq8OBvvGbK8KKjVvhN43JEZEnG4BgAMO7Zokmj09Vkrs_VUYkMxxe4zWDNttr3hgbNNWCgujGmqCvidGe8xldhoZiiuN8ICevmIHVdik_pHez8gIqsMz4VWkO0rLCeUxJ6Y2ezZwWI1&amp;t=ffffffffadad19fc" type="text/javascript"></script>
+<script src="/oibs/WebResource.axd?d=JoBkLzP19aTuxbWOhHobYhSHK1A0jk5iShvqW_y50Uf4oE7b1EBz_h-yYsQAYtGvDc5G_Q2&amp;t=638344191423008439" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7D22E5E0" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+</div>
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', [], [], [], 90, '');
+//]]>
+</script>
+
+<div class="d-flex align-self-start shadow" style="background-color: #121e2d">
+<div class="mr-2 p-2">
+<img id="imgUniLogo" src="../gen_imgs/uni_logo.gif" style="height:75px;width:75px;" /></div>
+<div class="mr-auto p-3">
+<span id="lblUniAd" class="text-white" style="font-size:20pt;">Gebze Teknik Üniversitesi</span></div>
+<div class="mr-2 mt-5">
+<span id="lblAppName" class="text-white" style="font-size:13pt;">Öğrenci Bilgi Sistemi</span></div>
+</div>
+<br />
+<div class="container-fluid">
+<div class="row">
+<div class="col-4">
+<a onclick="validNavigation = false;" id="btnChangeLanguage" href="javascript:__doPostBack(&#39;btnChangeLanguage&#39;,&#39;&#39;)" style="color:#5B636A;font-family:Open Sans;font-size:9pt;">English</a>
+&nbsp;&nbsp;
+<a id="btnAudioEnable" title="Güvenlik Kodu Seslendirme" class="btn btn-default btn-xs text-nowrap" href="javascript:__doPostBack(&#39;btnAudioEnable&#39;,&#39;&#39;)" style="display:inline-block;color:#5B636A;font-family:Open Sans;font-size:9pt;width:18px;color:transparent"><i class="fal fa-play-circle text-info"></i>Güvenlik Kodunu Seslendirme Düğmesini Açmak İçin Enter tuşuna basınız</a>
+</div>
+<div class="col-8"></div>
+</div>
+</div>
+<br />
+<div style="width: 98%">
+<div class="container-fluid m-2 p-1 border">
+<div class="row">
+<div class="col-sm-4 col-md-4 col-lg-3 p-2">
+<div id="tblLogin" class="container-fluid">
+<div class="row p-1">
+<div class="col-sm-4">
+<span id="lblParamT01" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Kullanıcı Adı:</span></div>
+<div class="col-sm-8">
+<input name="txtParamT01" type="text" maxlength="50" id="txtParamT01" title="Kullanıcı Adı" class="Textbox" autocomplete="off" style="font-family:Open Sans;font-size:8pt;font-weight:normal;width:80%;" /><span id="lbUserNamelSuffix" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;"></span></div>
+</div>
+<div class="row p-1">
+<div class="col-sm-4">
+<span id="lblParamT02" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Şifre</span></div>
+<div class="col-sm-8">
+<div class="input-group">
+<input name="txtParamT02" type="password" maxlength="25" readonly="readonly" id="txtParamT02" title="Şifre" class="Textbox" autocomplete="off" onfocus="this.removeAttribute(&#39;readonly&#39;);" onmouseover="this.removeAttribute(&#39;readonly&#39;);" style="font-family:Open Sans;font-size:8pt;font-weight:normal;width:88%;" />
+<div class="input-group-append" style="margin-left: 0px; height: 21px; width: 10%">
+<button id="show_password" class="btn btn-default btn-xs" type="button" tabindex="-1"><span class="fal fa-eye-slash icon" style="padding-left: 5px"></span></button>
+</div>
+</div>
+<span id="lblCapsWarn" class="text-danger" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;line-height: 2.5em; display: none">(⇪Caps Lock)</span>
+<script>var input = document.getElementById("txtParamT02"); var text = document.getElementById("lblCapsWarn"); input.addEventListener("keyup", function (event) { if (event.getModifierState("CapsLock")) { text.style.display = "block"; } else { text.style.display = "none" } });</script>
+</div>
+</div>
+<div class="row p-1">
+<div class="col-sm-4">
+<span id="lblGuvKod" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Sayıların Toplamı</span></div>
+<div class="col-sm-8">
+<div class="input-group-prepend">
+
+<img id="imgCaptchaImg" title="Güvenlik Kodu" onclick="__doPostBack(&#39;btnAudioEnable&#39;,&#39;&#39;);" src="../captcha/CaptchaImg.aspx" style="height:17px;width:60%;" />&nbsp;<input name="txtSecCode" type="text" maxlength="3" id="txtSecCode" title="Sayıların Toplamını Giriniz" class="Textbox" autocomplete="off" style="font-family:Open Sans;font-size:8pt;font-weight:normal;width:37%;" />
+</div>
+</div>
+</div>
+<div class="row p-1">
+<div class="col-sm-4"></div>
+<div class="col-sm-8">
+<a onclick="btnDoTxtClassOp(this,btnChangeLanguage.innerHTML);document.getElementById(&#39;btnEdevletLogin&#39;).style.visibility=&#39;hidden&#39;;" id="btnLogin" class="btn btn-default btn-xs" href="javascript:__doPostBack(&#39;btnLogin&#39;,&#39;&#39;)" style="display:inline-block;color:#5B636A;font-family:Open Sans;font-size:9pt;height:25px;width:99%;"><span style="color:#337ab7;font-size:11pt" class="fal fa-sign-in"></span> Giriş</a></div>
+</div>
+<div class="row p-1">
+<div class="col-sm-4"></div>
+<div class="col-sm-8">
+<a onclick="btnDoTxtClassOp(this,btnChangeLanguage.innerHTML);document.getElementById(&#39;btnLogin&#39;).style.visibility=&#39;hidden&#39;;" id="btnEdevletLogin" class="btn btn-default btn-xs" href="javascript:__doPostBack(&#39;btnEdevletLogin&#39;,&#39;&#39;)" style="display:inline-block;color:#5B636A;font-family:Open Sans;font-size:9pt;height:25px;width:99%;"><span style="color:#337ab7;font-size:11pt" class="fal fa-external-link"></span> E-Devlet İle Giriş</a></div>
+</div>
+<div class="row p-1">
+<div class="col-sm-4"></div>
+<div class="col-sm-8">
+<a id="hypSifremiUnuttum" href="start.aspx?gkm=00203111534420355103668435505388723221037665322343333037819389283223231117333273313832194378053889636720" target="_blank" style="display:inline-block;font-family:Open Sans;font-size:8pt;font-weight:normal;width:99%;">Şifre Sıfırla</a></div>
+</div>
+<div class="row p-1">
+<div class="col-sm-4"></div>
+<div class="col-sm-8"></div>
+</div>
+</div>
+<div id="Div1" class="container-fluid">
+<div class="row p-1">
+<div class="col-sm-4"></div>
+<div class="col-sm-8">
+<span id="lblSonuclar" class="text-danger" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;"></span>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-8">
+<table style="width: 100%">
+<tr>
+<td>
+<span id="lblTimerH" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;">Oturum Açmak İçin Kalan Süre</span>
+<span id="lblTimer" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;"></span></td>
+</tr>
+<tr>
+<td style="width: 100%">
+<a onclick="validNavigation = false; strnew(&#39;txtParamT02&#39;,&#39;txtParamT1&#39;);" id="btnRefresh" class="btn btn-default btn-xs" href="javascript:__doPostBack(&#39;btnRefresh&#39;,&#39;&#39;)" style="display:inline-block;color:#5B636A;font-family:Open Sans;font-size:9pt;width:99%;display: none"><span class='fal fa-sync text-danger'></span>Sayfayı Yenile</a></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-8 col-md-8 col-lg-9 p-2">
+<div style="padding-left: 10px; padding-right: 10px; border-left: 1px solid lightgray">
+<div class="pr-5">
+<iframe id='MyFrame' name='MyFrame' frameBorder='0' height='400px' width='100%' src='start.aspx?gkm=00293112634188355753662435555389523219037693322223333037812388083222031116332853331532220376653884036612333423658233327333033418433291378053556038960' ></iframe></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br />
+<input name="txtParamT1" type="password" id="txtParamT1" class="Textbox" autocomplete="off" style="font-family:Open Sans;font-size:8pt;font-weight:normal;width:558px;display: none" /><br />
+<input name="txt_scrWidth" type="text" id="txt_scrWidth" class="Textbox" autocomplete="off" style="font-family:Open Sans;font-size:8pt;font-weight:normal;display: none" />
+<input name="txt_scrHeight" type="text" id="txt_scrHeight" class="Textbox" autocomplete="off" style="font-family:Open Sans;font-size:8pt;font-weight:normal;display: none" /><br />
+<span id="lblTitle" class="text-white" style="color:#3A3A3A;font-family:Open Sans;font-size:8pt;visibility: hidden">Öğrenci Girişi</span><br />
+<footer>
+</footer>
+<script type="text/javascript">$(document).ready(function () { $('#show_password').hover(function show() { $('#txtParamT02').attr('type', 'text'); $('.icon').removeClass('fal fa-eye-slash').addClass('fal fa-eye'); }, function () { $('#txtParamT02').attr('type', 'password'); $('.icon').removeClass('fal fa-eye').addClass('fal fa-eye-slash'); }); });</script>
+<div id="myDiv2"><input name="__RequestVerificationToken" type="hidden" value="qaqCj6vYAG_vUefbA8YNxKasHSdZREDiQYLVk80CHXJlmnIwYQse_cDgLWkBqV0HfF9MzfUN7w2k171Ui86qb3oB_YA1" /></div>    
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+WebForm_AutoFocus('txtParamT01');//]]>
+</script>
+</form>
+</body>
+</html>
